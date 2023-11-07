@@ -1,0 +1,426 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#main{
+    height: 100vh;
+    width: 100wh;
+    background-size: cover;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-image: url(https://images.unsplash.com/photo-1577221084712-45b0445d2b00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z3ltfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    background-attachment: fixed;
+}
+
+.a{
+    opacity: 1;
+    position: relative;
+    text-align: center;
+    top: 100px;
+    font-size: 45px;
+    color: white;
+}
+
+#main h2{
+    position: relative;
+    text-align: center;
+    top: 120px;
+    color: white;
+    font-size: 32px;
+}
+
+.ab{
+position: relative;
+    top: 150px;
+    opacity: 1;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+input{
+    height: 50px;
+    font-size: 30px;
+    width: 300px;
+    position: relative;
+    text-align: center;
+    left: 500px;
+    top: 200px;
+    opacity: 1;
+    color: white;
+    background-color: black;
+    border: 5px solid rebeccapurple;
+    transition: all ease 0.5s;
+}
+
+input:hover{
+    color: black;
+    background-color: white;
+    cursor:pointer;
+    border: 5px solid purple;
+   
+}
+input:active{
+    scale: 0.9;
+}
+
+#border{
+    height:80px;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    top:400px;
+    display: flex;
+}
+
+
+#border h2{
+    color: white;
+    padding: 14px;
+    margin-left: 100px;
+    margin-top: -120px;
+    cursor: pointer;
+}
+
+
+#border h2:hover{
+    color:rgb(187, 187, 102) ;
+}
+#btn{
+
+    border: 2px solid rgb(163, 77, 77);
+    position: relative;
+    top: 10px;
+    left: 50px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+#body{
+    position: relative;
+    top: -800px;
+    height: 700px;
+    opacity: 0.9;
+    width: 100%;
+    z-index: -1;
+    background-attachment: fixed;
+    background-image: url(https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+}
+
+#Fitness h1{
+    opacity: 1;
+    position: relative;
+    top: 150px;
+    color: white;
+    text-align: center;
+    /* text-transform:capitalize; */
+    font-size: 35px;
+}
+
+#Fitness{
+    /* float: left; */
+    margin-top: -30px;
+
+}
+#fitness h1:hover{
+    color: aqua;
+}
+
+#workout{
+    height: 400px;
+    width: 300px;
+    border: 2px solid white;
+    position: relative;
+    top: 250px;
+    left: 100px;
+
+}
+
+#workout img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+#workout h2{
+    font-size:24px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    text-transform:uppercase;
+    color: rgb(206, 131, 34);
+}
+
+#workout p{
+    position: relative;
+    top: 30px;
+    left: 3px;
+    color: white;
+    font-size: 17px;
+}
+
+/* For studio */
+
+#studio{
+    height: 400px;
+    width: 300px;
+    border: 2px solid white;
+    position: relative;
+    top: -155px;
+    left: 500px;
+
+}
+
+#studio img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+#studio h2{
+    font-size:24px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    color: rgb(206, 131, 34);
+    text-transform:uppercase;
+}
+
+#studio p{
+    position: relative;
+    top: 30px;
+    left: 3px;
+    color: white;
+    font-size: 17px;
+}
+
+
+/* machine */
+#machine{
+    height: 400px;
+    width: 300px;
+    border: 2px solid white;
+    position: relative;
+    top: -1260px;
+    left: 920px;
+
+}
+
+#machine img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+#machine h2{
+    font-size:24px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    color: rgb(206, 131, 34);
+    text-transform:uppercase;
+}
+
+#machine p{
+    position: relative;
+    top: 30px;
+    left: 3px;
+    color: white;
+    font-size: 17px;
+}
+
+/* workset */
+#workset{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://c8.alamy.com/comp/2G7D5K3/fitness-club-or-gym-logo-emblem-fist-holds-barbell-and-inscription-gym-isolated-on-white-vector-illustratin-2G7D5K3.jpg);
+    position: absolute;
+    top:1380px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#workset h1{
+
+    position: relative;
+    top: 50px;
+    font-size: 40px;
+    text-transform:uppercase;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+#img1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 50px;
+    float: left;
+ 
+}
+
+#img2{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 220px;
+    margin-left: 50px;
+
+}
+
+#workset p{
+    float: left;
+    /* padding: 50px; */
+    margin-top: -400px;
+    font-size: 22px;
+    font-style:oblique;
+    margin-left: 600px;
+    color:black;
+    opacity: 0.7;
+}
+
+#workset p:hover{
+    opacity: 1;
+    transition: all ease .4s;
+
+}
+
+#owner{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(65, 156, 156);
+    position: absolute;
+    margin-top: -500px;
+}
+
+#owner p{
+    font-size: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 90px;
+  margin-left: 20px;
+}
+
+#owner img{
+    height: 200px;
+    width: 200px;
+    /* position: absolute; */
+    float: right;
+    margin-top: -150px;
+    margin-right:100px;
+    border-radius: 50%;
+}
+
+#owner h2{
+    float: right;
+    margin-top: 55px;
+    margin-right: -170px;
+}
+
+#contact{
+    width: 100%;
+}
+
+#contact iframe{
+    width: 50%;
+}
+
+#registration{
+    height: 500px;
+    width: 50%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.747);
+    position: absolute;
+    margin-top: -90px;
+}
+
+#registration h2{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    font-style: oblique;
+}
+
+#name_f{
+    height:40px;
+    width: 290px;
+    padding: -20px;
+    float: left;
+    margin-top: -170px;
+    border: none;
+    margin-left: -480px;
+    border-radius: 5px;
+}
+#email{
+    height:40px;
+    width: 290px;
+    padding: -20px;
+    float: left;
+    margin-top: -170px;
+    border: none;
+    margin-left: -180px;
+    border-radius: 5px;
+}
+
+#message{
+    height: 150px;
+    width: 590px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 100px;
+    border-radius: 5px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#message:hover{
+    background-color: white;
+    color: black;
+}
+
+
+#button{
+    margin-top: 80px;
+    width: 250px;
+    margin-left: -134px;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 5px solid rgb(77, 77, 164);
+}
+
+#button:hover{
+    transition: all ease .5s;
+    border: 5px solid purple;
+    
+}
+
+#boundary{
+    height: 120px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    margin-top: 332px;
+
+}
+
